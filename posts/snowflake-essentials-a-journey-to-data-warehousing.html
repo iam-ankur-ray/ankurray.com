@@ -1,0 +1,205 @@
+
+<html>
+<head>
+<title>Snowflake Essentials: A Journey to Data Warehousing</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="../favicon.ico">
+</head>
+<body>
+
+<header>
+<h1>Ankur Ray</h1>
+<hr>
+</header>
+
+<article>
+
+<h1>Snowflake Essentials: A Journey to Data Warehousing</h1>
+
+
+<figure class="wp-block-image aligncenter size-full"><img src="../images/snowflake-essentials-logo.png" alt="" class="wp-image-110"/></figure>
+
+
+
+<h2 class="wp-block-heading">Introduction</h2>
+
+
+
+<p>As I recently completed my Snowflake Essentials badge test, I wanted to share the key takeaways and essential lessons I learned along the way. In this article, we'll dive into the fundamentals of data warehousing, roles, database creation, schema management, and data loading using Snowflake.</p>
+
+
+
+<h3 class="wp-block-heading">Understanding Data Warehousing Basics</h3>
+
+
+
+<p>Before we begin, let's define some essential terms:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Data Warehouse: A top-level container for data storage and management. Note that data can be null in a data warehouse.</li>
+
+
+
+<li>Schema: A logical grouping of related tables within a warehouse.</li>
+
+
+
+<li>Table: A specific collection of related data within a schema.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Roles and Access Control</h3>
+
+
+
+<p>In Snowflake, different role types allow users to interact with data:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Admin: Has full control over the account.</li>
+
+
+
+<li>System Admin: Manages account settings and security.</li>
+
+
+
+<li>Normal User: A standard user with limited access.</li>
+
+
+
+<li>Public: Anyone can access the data in this role.</li>
+</ul>
+
+
+
+<p><strong>Roles can be transferred, such as from:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Account Admin to Org Admin</li>
+
+
+
+<li>Security Admin</li>
+
+
+
+<li>User Admin</li>
+
+
+
+<li>Public</li>
+</ul>
+
+
+
+<h4 class="wp-block-heading">Creating Databases and Schemas</h4>
+
+
+
+<div class="wp-block-group">
+<p>To get started, create a database and transfer ownership to the desired role. Then, create schemas using the UI or SQL commands.</p>
+
+
+
+<div class="wp-block-group">
+<p><strong>Creating Tables</strong></p>
+
+
+
+<p>Create tables using SQL commands, such as:</p>
+
+
+
+<p class="has-text-align-left">CREATE TABLE ( RAW_TABLE_NAME );</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img src="../images/snowflake-essentials-diagram.png" alt="" class="wp-image-113" style="width:407px;height:auto"/></figure>
+</div>
+</div>
+
+
+
+<p><strong>Loading Data</strong></p>
+
+
+
+<p>Add data to tables using:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Insert Statements</li>
+
+
+
+<li>Snowflake's Load Data Wizard</li>
+
+
+
+<li>COPY INTO Statements</li>
+</ul>
+
+
+
+<p>Data can be loaded from various file formats, including:</p>
+
+
+
+<ul class="wp-block-list">
+<li>CSV for structured data</li>
+
+
+
+<li>JSON for unstructured or semi-structured data</li>
+</ul>
+
+
+
+<p><strong>Querying Data</strong></p>
+
+
+
+<p>Once data is loaded, query it using SQL commands to gain insights and analyze your data.</p>
+
+
+
+<h5 class="wp-block-heading">Conclusion</h5>
+
+
+
+<p>Mastering Snowflake essentials is a crucial step in data warehousing. By understanding roles, database creation, schema management, and data loading, you'll be well-equipped to manage and analyze your data effectively. Remember to practice and explore Snowflake's features to become proficient in data warehousing.</p>
+
+
+
+<p><strong>Additional Resources</strong></p>
+
+
+
+<p>For further learning, explore Snowflake's documentation and tutorials. Practice with sample data and scenarios to reinforce your understanding.</p>
+
+
+
+<p><strong>Final Thoughts</strong></p>
+
+
+
+<p>Data warehousing is a powerful tool for unlocking insights and driving business decisions. With Snowflake and these essentials under your belt, you're ready to embark on a journey of data discovery and analysis.&nbsp;Happy&nbsp;learning!</p>
+
+
+</article>
+
+<footer>
+<hr>
+<p style="text-align:center">© Ankur Ray</p>
+</footer>
+
+</body>
+</html>
