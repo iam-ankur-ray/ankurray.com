@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logbook</title>
+</head>
+<body>
+    <header>
+        <h1>Logbook</h1>
+        <p>This is the logbook page where I will keep track of my daily activities and learnings.</p>
+    </header>
+
+    <section>
+        <h2>
+            Week 1:  <datetime>05-07-2026</datetime>
+        </h2>    
+        <p>This week I learned about Arrays and solved multiple questions related to it.</p>
+
+        <h3>Learnings from coding</h3>
+    
+            <dl>
+                <h5>HCF Problem- Started by analysing loop C = Math.min(A,B), then stores the highest factor in HCF variable, finally iterating till C,<br> got the highest factor of smaller number which could be itself and that will be my HCF.
+                </h5>
+                    <li> 1. Core Idea: HCF will not be greater than smaller number</li>
+                    <li>2. Algorithm Discovery - Will iterate from 2 as 1 will always be a factor and till smallest number, if int I divides both that is my answer</li>
+                    <li>3. Key Pattern - Generate -> Check -> Remember the Best (HCF discovery)</li>
+                    <li>4. Lessons Learned - Initially I forgot about variable that will be required to save the best result.</li>
+            </dl>
+
+            <dl>
+                <h5>Problem - Need to divide an array in two parts and print even numbers and odd numbers as separate array.</h5>
+                    <li>1. Core Idea - get the size of both even and odd array by checking the division of all the elements and then loop again by introducing local variable indexOdd = 0;<br> and increment it after adding in oddArray[indexOdd] = arr[i] if the element is odd and same process for even numbers.
+</li>
+                    <li>2. Algorithm Discovery - Nothing as much but we need to segregate into several parts.</li>
+                    <li>3. Key Pattern - divide the array in several parts after getting the size of other arrays whose sum should be equal to the size of array.</li>
+                    <li>4. Lessons Learned: When building a new array whose size is already known, keep a separate write index. Every time an element satisfies the condition, store it at newArray[writeIndex] and increment writeIndex
+</li>
+
+            </dl>
+    </section>
+    
+</body>
+</html>
