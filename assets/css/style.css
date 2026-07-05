@@ -75,6 +75,38 @@ pre {
     color: rgba(255, 255, 255, 0.9);
 }
 
+.hero-quote {
+    font-style: italic;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 20px 0 0 0;
+    padding: 15px 30px;
+    border-left: 3px solid rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0 8px 8px 0;
+    position: relative;
+}
+
+.hero-quote::before {
+    content: '"';
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-family: Georgia, serif;
+}
+
+.hero-quote::after {
+    content: '"';
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+    font-family: Georgia, serif;
+}
+
 /* Bio Section */
 .bio {
     display: flex;
@@ -119,12 +151,25 @@ pre {
     color: #667eea;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .social-list a:hover {
     color: #764ba2;
-    text-decoration: underline;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.social-list .icon {
+    display: inline-flex;
+    font-size: 1.2em;
+}
+
+.social-list .icon-label {
+    display: inline-block;
 }
 
 /* Main Navigation */
